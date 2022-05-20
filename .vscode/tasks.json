@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "process",
+      "command": "/usr/bin/swift",
+      "args": [
+        "build",
+        "--use-integrated-swift-driver",
+        "--experimental-explicit-module-build",
+      ],
+      "isBuildCommand": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb-vscode",
+      "request": "launch",
+      "name": "Launch",
+      "program": "${workspaceFolder}/.build/x86_64-apple-macosx/debug/ClassROTPointerAuth",
+      "initCommands": ["command source ~/dev/ClassROTPointerAuth/lldbinit"]
+    }
+  ]
+}
